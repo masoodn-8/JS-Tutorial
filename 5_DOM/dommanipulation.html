@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom manipulation</title>
+</head>
+<body >
+    
+</body>
+
+<script>
+    document.body.style.backgroundColor = "Black";
+
+    function createDiv(title){
+        const div = document.createElement('div');
+        div.style.border = "2px solid white";
+        div.style.height = "100px";
+        div.style.width = "100px";
+
+        div.innerHTML = `${title}`;
+
+        div.style.color = "white";
+        // const h4 =div.createElement('h4');
+        // const p = div.createElement('p');
+
+        // div.querySelector('p').innerText = "Hello my div";
+        // div.querySelector('p').style.color ="white";
+
+        // div.querySelector('h4').innerText = "DIV";
+        // div.querySelector('h4').style.color = "white";
+
+        // div.appendChild(h4);
+        // div.appendChild(p);
+        document.body.appendChild(div);
+    }
+
+    
+
+    createDiv("DIV");
+    createDiv("DIV1");
+    createDiv("DIV2");
+
+    const select = document.querySelector("body>div:nth-child(2)");
+    select.replaceWith(createDiv("Masood"));
+
+
+    
+
+
+</script>
+</html>

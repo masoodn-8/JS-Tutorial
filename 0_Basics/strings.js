@@ -1,11 +1,11 @@
 // Strings can be declared by using Single quotes ('') or double quotes ("");
 
-const name = "Masood";
-const age = 22;
+// const name = "Masood";
+// const age = 22;
 
-console.log(name + age); //Concatination of String and number "Output: Masood22"
+// console.log(name + age); //Concatination of String and number "Output: Masood22"
 
-console.log(`My name is ${name} and my age is ${age}`); //String interpolation method
+// console.log(`My name is ${name} and my age is ${age}`); //String interpolation method
 
 //Strings are also known as Array of characters or Object.
 //Strings will have key value pair type. Such as
@@ -15,10 +15,10 @@ console.log(`My name is ${name} and my age is ${age}`); //String interpolation m
     name[0] // Gives "I" character, because array indexes starts from 0;
 */
 
-let comicName = new String("BatMan");
+// let comicName = new String("BatMan");
 
-console.log(comicName);
-console.log(comicName.__proto__);
+// console.log(comicName);
+// console.log(comicName.__proto__);
 
 
 /*
@@ -37,4 +37,25 @@ console.log(comicName.__proto__);
 
 */
  
+// String methods practice....
+
+let sentence = "Thor is the mighty avenger";
+let upperSen = "THOR IS THE MIGHTY aVENGER";
+
+console.log(sentence.substring(2, 25));
+console.log(sentence.slice(-5,25));
+console.log(sentence.replace('a', 'A'));
+
+
+
+// upperSen.forEach(e => {
+//     console.log(e);
+    
+// });
+
+// console.log(sentence.length)
+
+
+
+// console.log(sentence)
 

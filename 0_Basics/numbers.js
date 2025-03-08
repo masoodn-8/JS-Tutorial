@@ -17,11 +17,11 @@ let num = new Number(800000); // It is definitely number.
 
 // Maths in JavaScript
 
-console.log(Math.abs(-8)); //Converts the negative value into positive, but won't convert positive to negative.
-console.log(Math.round(8.2)); //It will round off the 8.2 to 8.
-console.log(Math.min(2,3,1,4)); //Outputs the minimum of the given numbers.
-console.log(Math.random()); //gives the random value from 0 to 1.
-console.log((Math.random() * 10) + 1); //gives the random value from 1 to 10.
+// console.log(Math.abs(-8)); //Converts the negative value into positive, but won't convert positive to negative.
+// console.log(Math.round(8.2)); //It will round off the 8.2 to 8.
+// console.log(Math.min(2,3,1,4)); //Outputs the minimum of the given numbers.
+// console.log(Math.random()); //gives the random value from 0 to 1.
+// console.log((Math.random() * 10) + 1); //gives the random value from 1 to 10.
 
 
 const min = 10;
